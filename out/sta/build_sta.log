@@ -1,0 +1,47 @@
+Compiling cust/ZC_Adpter/zc_mt7681_adapter.c ...
+cust/ZC_Adpter/zc_mt7681_adapter.c: In function 'rand':
+cust/ZC_Adpter/zc_mt7681_adapter.c:71: warning: conversion to 'int' from 'UINT32' may change the sign of the result
+cust/ZC_Adpter/zc_mt7681_adapter.c: In function 'MT_ReadDataFromFlash':
+cust/ZC_Adpter/zc_mt7681_adapter.c:103: warning: cast increases required alignment of target type
+cust/ZC_Adpter/zc_mt7681_adapter.c: In function 'MT_TimerExpired':
+cust/ZC_Adpter/zc_mt7681_adapter.c:171: warning: implicit declaration of function 'uip_arp_out'
+cust/ZC_Adpter/zc_mt7681_adapter.c:172: warning: implicit declaration of function 'mt76xx_dev_send'
+cust/ZC_Adpter/zc_mt7681_adapter.c: In function 'MT_SetTimer':
+cust/ZC_Adpter/zc_mt7681_adapter.c:194: warning: conversion to 'clock_time_t' from 'u32' may change the sign of the result
+cust/ZC_Adpter/zc_mt7681_adapter.c: In function 'MT_FirmwareUpdateFinish':
+cust/ZC_Adpter/zc_mt7681_adapter.c:230: warning: implicit declaration of function 'spi_flash_CopyApToSta'
+cust/ZC_Adpter/zc_mt7681_adapter.c: In function 'MT_FirmwareUpdate':
+cust/ZC_Adpter/zc_mt7681_adapter.c:273: warning: conversion to 'uint16' from 'u32' may alter its value
+cust/ZC_Adpter/zc_mt7681_adapter.c:288: warning: conversion to 'uint16' from 'u32' may alter its value
+cust/ZC_Adpter/zc_mt7681_adapter.c: In function 'MT_Rest':
+cust/ZC_Adpter/zc_mt7681_adapter.c:311: warning: implicit declaration of function 'wifi_state_chg'
+cust/ZC_Adpter/zc_mt7681_adapter.c: In function 'MT_StopTimer':
+cust/ZC_Adpter/zc_mt7681_adapter.c:348: warning: unused parameter 'u8TimerIndex'
+cust/ZC_Adpter/zc_mt7681_adapter.c: In function 'MT_GetMac':
+cust/ZC_Adpter/zc_mt7681_adapter.c:363: warning: implicit declaration of function 'spi_flash_read'
+cust/ZC_Adpter/zc_mt7681_adapter.c: In function 'MT_ConnectToCloud':
+cust/ZC_Adpter/zc_mt7681_adapter.c:384: warning: assignment from incompatible pointer type
+cust/ZC_Adpter/zc_mt7681_adapter.c:397: warning: implicit declaration of function 'resolv_lookup'
+cust/ZC_Adpter/zc_mt7681_adapter.c:397: warning: assignment makes pointer from integer without a cast
+cust/ZC_Adpter/zc_mt7681_adapter.c: In function 'MT_Init':
+cust/ZC_Adpter/zc_mt7681_adapter.c:498: warning: assignment from incompatible pointer type
+cust/ZC_Adpter/zc_mt7681_adapter.c:514: warning: integer constant is too large for 'long' type
+cust/ZC_Adpter/zc_mt7681_adapter.c:515: warning: integer constant is too large for 'long' type
+cust/ZC_Adpter/zc_mt7681_adapter.c: In function 'MT_BroadcastAppCall':
+cust/ZC_Adpter/zc_mt7681_adapter.c:540: warning: pointer targets in passing argument 1 of 'ZC_SendClientQueryReq' differ in signedness
+cust/ZC/inc/zc/zc_bc.h:25: note: expected 'u8 *' but argument is of type 'char *'
+cust/ZC_Adpter/zc_mt7681_adapter.c:531: warning: unused variable 'u16Len'
+cust/ZC_Adpter/zc_mt7681_adapter.c: In function 'MT_CloudAppCall':
+cust/ZC_Adpter/zc_mt7681_adapter.c:555: warning: conversion to 'u32' from 'int' may change the sign of the result
+cust/ZC_Adpter/zc_mt7681_adapter.c:587: warning: pointer targets in passing argument 1 of 'MSG_RecvDataFromCloud' differ in signedness
+cust/ZC/inc/zc/zc_message_queue.h:58: note: expected 'u8 *' but argument is of type 'char *'
+cust/ZC_Adpter/zc_mt7681_adapter.c:600: warning: passing argument 1 of 'MSG_SendDataToCloud' from incompatible pointer type
+cust/ZC/inc/zc/zc_message_queue.h:59: note: expected 'u8 *' but argument is of type 'struct PTC_Connection *'
+cust/ZC_Adpter/zc_mt7681_adapter.c: In function 'MT_ClientAppCall':
+cust/ZC_Adpter/zc_mt7681_adapter.c:622: warning: pointer targets in passing argument 2 of 'ZC_RecvDataFromClient' differ in signedness
+cust/ZC/inc/zc/zc_client_manager.h:52: note: expected 'u8 *' but argument is of type 'char *'
+Linking out/sta/MT7681_sta.elf ...
+Making out/sta/MT7681_sta_old.bin ...
+Making out/sta/MT7681_sta_ram.bin ...
+Making out/sta/MT7681_sta_xip.bin ...
+Making out/sta/MT7681_sta_overlay.bin ...

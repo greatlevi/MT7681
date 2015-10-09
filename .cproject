@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="nds.nds32le-elf-newlib-v2j.base.955351286">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="nds.nds32le-elf-newlib-v2j.base.955351286" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.andestech.ide.cdt.managedbuilder.core.CROSS_GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" id="nds.nds32le-elf-newlib-v2j.base.955351286" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="nds.nds32le-elf-newlib-v2j.base.955351286.179069572" name="/" resourcePath="">
+						<toolChain id="nds.nds32le-elf-newlib-v2j.base.2088302555" name="nds.nds32le-elf-newlib-v2j.base" superClass="nds.nds32le-elf-newlib-v2j.base">
+							<option id="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.NDS32_CPU.625124668" name="CPU" superClass="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.NDS32_CPU"/>
+							<option id="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.NDS32_LIST_CPU.78320865" name="LIST_CPU" superClass="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.NDS32_LIST_CPU"/>
+							<option id="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.NDS32_CORE.1705609736" name="CORE" superClass="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.NDS32_CORE"/>
+							<option id="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.NDS32_ARCH.1543415489" name="ARCH" superClass="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.NDS32_ARCH"/>
+							<option id="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.NDS32_ISA_REDUCE_REGS.1722038171" name="ISA_REDUCE_REGS" superClass="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.NDS32_ISA_REDUCE_REGS"/>
+							<option id="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.NDS32_TARGET.1518980310" name="TARGET" superClass="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.NDS32_TARGET"/>
+							<option id="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.NDS32_ENDIAN.1431626371" name="ENDIAN" superClass="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.NDS32_ENDIAN"/>
+							<option id="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.NDS32_LIB_C_DEFAULT.814027412" name="LIB_C_DEFAULT" superClass="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.NDS32_LIB_C_DEFAULT"/>
+							<option id="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.NDS32_LIB_CPP_DEFAULT.1522132848" name="LIB_CPP_DEFAULT" superClass="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.NDS32_LIB_CPP_DEFAULT"/>
+							<option id="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.RSE_TARGET.273129752" name="RSE_TARGET" superClass="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.RSE_TARGET"/>
+							<option id="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.RSE_CONNECT.251840325" name="RSE_CONNECT" superClass="nds32le-elf-newlib-v2j.managedbuild.option.toolchain.RSE_CONNECT"/>
+							<targetPlatform archList="all" binaryParser="com.andestech.ide.cdt.managedbuilder.core.CROSS_GNU_ELF" id="target.nds.platform.base.389775078" name="Debug Platform" osList="all" superClass="target.nds.platform.base"/>
+							<builder id="target.nds.builder.base.1589236248" managedBuildOn="false" name="Andes Make Builder.Default" superClass="target.nds.builder.base"/>
+							<tool id="tool.nds32le-elf-newlib-v2j.archiver.base.271447834" name="Andes Archiver" superClass="tool.nds32le-elf-newlib-v2j.archiver.base"/>
+							<tool id="tool.nds32le-elf-newlib-v2j.cpp.compiler.base.1844352510" name="Andes C++ Compiler" superClass="tool.nds32le-elf-newlib-v2j.cpp.compiler.base"/>
+							<tool id="tool.nds32le-elf-newlib-v2j.cpp.linker.base.2130593091" name="Andes C++ Linker" superClass="tool.nds32le-elf-newlib-v2j.cpp.linker.base">
+								<option defaultValue="true" id="nds32le-elf-newlib-v2j.cpp.link.option.noshared.base.1785202741" superClass="nds32le-elf-newlib-v2j.cpp.link.option.noshared.base" valueType="boolean"/>
+							</tool>
+							<tool id="tool.nds32le-elf-newlib-v2j.c.compiler.base.1326931095" name="Andes C Compiler" superClass="tool.nds32le-elf-newlib-v2j.c.compiler.base"/>
+							<tool id="tool.nds32le-elf-newlib-v2j.c.linker.base.819448539" name="Andes C Linker" superClass="tool.nds32le-elf-newlib-v2j.c.linker.base">
+								<option defaultValue="true" id="nds32le-elf-newlib-v2j.c.link.option.noshared.base.1223517512" superClass="nds32le-elf-newlib-v2j.c.link.option.noshared.base" valueType="boolean"/>
+							</tool>
+							<tool id="tool.nds32le-elf-newlib-v2j.assembler.base.1650088635" name="Andes Assembler" superClass="tool.nds32le-elf-newlib-v2j.assembler.base"/>
+							<tool id="tool.nds32le-elf-newlib-v2j.nm.base.1558440430" name="NM (symbol listing)" superClass="tool.nds32le-elf-newlib-v2j.nm.base"/>
+							<tool id="tool.nds32le-elf-newlib-v2j.readelf.base.439592694" name="Readelf (ELF info listing)" superClass="tool.nds32le-elf-newlib-v2j.readelf.base"/>
+							<tool id="tool.nds32le-elf-newlib-v2j.objdump.base.1552659437" name="Objdump (disassembly)" superClass="tool.nds32le-elf-newlib-v2j.objdump.base"/>
+							<tool id="tool.nds32le-elf-newlib-v2j.objcopy.base.1857717759" name="Objcopy (object content copy)" superClass="tool.nds32le-elf-newlib-v2j.objcopy.base"/>
+							<tool id="tool.nds32le-elf-newlib-v2j.size.base.1102354421" name="Size (section size listing)" superClass="tool.nds32le-elf-newlib-v2j.size.base"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="MTK7681.null.150704320" name="MTK7681"/>
+	</storageModule>
+</cproject>
